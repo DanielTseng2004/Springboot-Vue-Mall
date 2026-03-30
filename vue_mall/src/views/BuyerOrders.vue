@@ -168,15 +168,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.order-detail-expand {
-  padding: 15px 40px;
-  background-color: #f8f9fa;
-}
-.detail-title {
-  margin-bottom: 10px;
-  color: #409eff;
-  border-left: 4px solid #409eff;
-  padding-left: 10px;
-}
-</style>
+
+

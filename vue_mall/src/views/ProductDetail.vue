@@ -168,30 +168,5 @@ export default {
 };
 </script>
 
-<style scoped>
-/* 樣式保持不變 */
-.product-detail {
-  padding: 40px 0;
-  background-color: #f5f7fa;
-  min-height: 100vh;
-}
-.detail-card {
-  border-radius: 16px;
-  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05) !important;
-}
-.action-buttons {
-  margin-top: 30px;
-  display: flex;
-  gap: 15px;
-}
-.buy-btn {
-  flex: 1;
-}
-.product-description {
-  margin: 25px 0;
-}
-.desc-text {
-  color: #606266;
-  line-height: 1.6;
-}
-</style>
+
+

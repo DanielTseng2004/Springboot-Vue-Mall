@@ -46,17 +46,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.order-card {
-  margin-bottom: 20px;
-}
 
-.order-info h3 {
-  margin: 0 0 10px 0;
-}
 
-.order-info p {
-  margin: 5px 0;
-  color: #666;
-}
-</style>

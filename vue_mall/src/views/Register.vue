@@ -160,39 +160,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.register {
-  padding: 40px 0;
-}
 
-.register-card {
-  max-width: 400px;
-  margin: 0 auto;
-}
 
-.register-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.register-header h2 {
-  margin: 0;
-  color: #67c23a;
-}
-
-.login-link {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.login-link a {
-  color: #409eff;
-  text-decoration: none;
-}
-
-.login-link a:hover {
-  text-decoration: underline;
-}
-</style>

@@ -125,39 +125,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.login {
-  padding: 40px 0;
-}
 
-.login-card {
-  max-width: 400px;
-  margin: 0 auto;
-}
 
-.login-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.login-header h2 {
-  margin: 0;
-  color: #409eff;
-}
-
-.register-link {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.register-link a {
-  color: #409eff;
-  text-decoration: none;
-}
-
-.register-link a:hover {
-  text-decoration: underline;
-}
-</style>

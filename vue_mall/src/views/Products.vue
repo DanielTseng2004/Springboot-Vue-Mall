@@ -174,29 +174,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.filter-card {
-  background: linear-gradient(135deg, #ffffff 0%, #f9fafc 100%);
-  margin-bottom: 30px;
-  border-radius: 12px;
-  padding: 10px;
-  border: 1px solid #eef1f6;
-}
 
-.product-grid {
-  margin-top: 10px;
-}
 
-.search-input :deep(.el-input__wrapper) {
-  border-radius: 20px;
-  padding-left: 15px;
-}
-
-.category-select :deep(.el-input__wrapper) {
-  border-radius: 20px;
-}
-
-.empty-state {
-  padding: 100px 0;
-}
-</style>

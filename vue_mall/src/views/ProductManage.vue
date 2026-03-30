@@ -287,27 +287,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.manage-container {
-  padding: 20px;
-}
-.header-actions {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-.pagination {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-.image-slot {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background: #f5f7fa;
-  color: #909399;
-}
-</style>
+
+

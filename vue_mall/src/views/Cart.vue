@@ -200,48 +200,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.cart-container {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-.cart-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-title {
-  font-size: 20px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.product-info {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.product-img {
-  width: 60px;
-  height: 60px;
-  border-radius: 8px;
-}
-.subtotal-text {
-  color: #f56c6c;
-  font-weight: bold;
-}
-.cart-footer {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 20px;
-}
-.total-amount {
-  font-size: 28px;
-  font-weight: bold;
-  color: #f56c6c;
-}
-</style>
+
+

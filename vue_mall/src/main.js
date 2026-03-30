@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import ElementPlus, { ElLoading, ElMessage, ElMessageBox } from "element-plus";
 import "element-plus/dist/index.css";
+import "../all.css";
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import NavBar from "./components/NavBar.vue";
 
