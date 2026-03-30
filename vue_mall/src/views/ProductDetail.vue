@@ -12,11 +12,6 @@
           <template #header>
             <div class="product-header">
               <h2>{{ product.productName }}</h2>
-              <el-tag
-                type="success"
-                size="large"
-                >${{ product.price }}</el-tag
-              >
             </div>
           </template>
 
@@ -61,6 +56,13 @@
                   <el-tag :type="product.stock > 0 ? 'success' : 'danger'">
                     {{ product.stock > 0 ? product.stock : "缺貨" }}
                   </el-tag>
+                </el-descriptions-item>
+                <el-descriptions-item label="售價">
+                  <el-tag
+                    type="success"
+                    size="large"
+                    >${{ product.price }}</el-tag
+                  >
                 </el-descriptions-item>
                 <el-descriptions-item label="上架日期">{{
                   formatDate(product.createdDate)
@@ -167,6 +169,3 @@ export default {
   },
 };
 </script>
-
-
-
