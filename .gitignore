@@ -1,0 +1,86 @@
+# Spring Boot / Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.sts4-cache/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.jar.original
+
+# Node.js / Vue
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Application properties (contains sensitive data)
+springboot-mall/src/main/resources/application.properties
+springboot-mall/src/test/resources/application.properties
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# IDE plugins
+.sonarlint/
+
+# Gradle
+.gradle/
+build/
+
+# Maven wrapper
+.mvn/
+
+# Build artifacts
+*.exe
+*.com
+*.bat
