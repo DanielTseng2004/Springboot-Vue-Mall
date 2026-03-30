@@ -199,6 +199,16 @@ CREATE DATABASE mall;
 
 ---
 
+## 最新更新
+
+### 2026-03-30
+- 將所有 `*.vue` 內建 CSS 提取到 `vue_mall/all.css`
+- 導覽列（`NavBar`）修復無意義留白，採 100% 寬度補齊、元素置中、配色統一
+- 登入/註冊頁面修正左右置中、卡片圓角、簡潔色系、可讀性提升
+- 全局統一卡片、按鈕、輸入框、滾動條樣式，並加入交互過渡效果
+
+---
+
 ## 後端詳細資訊（`springboot-mall`）
 
 一個簡單的 Spring Boot Mall 範例專案（Spring Boot 3 / Java 21 / Maven）。
