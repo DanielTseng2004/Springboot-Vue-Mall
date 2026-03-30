@@ -43,10 +43,8 @@
 - Vue Router **4.0.3**
 - Vue CLI（`vue-cli-service`）
 - Axios **1.13.6**
-- Bootstrap 5 **5.3.8**
 - Element Plus **2.13.6**
 - Vue Loading Overlay
-- Bootstrap Icons
 - Sass
 
 ---
